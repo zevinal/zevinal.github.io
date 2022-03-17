@@ -62,6 +62,15 @@ main p {
 .cards {
     display: flex;
     justify-content: space-between;
+    text-align: center;
+}
+.cards p {
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    margin: 10px 30px 20px 30px;
+}
+.cards img {
+    margin-top: 20px;
 }
 .card1 {
     background-image: url(./images/image-background-card1.jpg);
@@ -70,15 +79,30 @@ main p {
     background-position: center;
     width: 30%;
 }
+.card1 h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-top: 20px;
+}
 .card2 {
     background-image: url(./images/image-background-card2.jpg);
     background-size: cover;
     background-position: center;
     width: 30%;
 }
+.card2 h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-top: 20px;
+}
 .card3 {
     background-image: url(./images/image-background-card3.jpg);
     background-size: cover;
     background-position: center;
     width: 30%;
+}
+.card3 h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-top: 20px;
 }
