@@ -60,23 +60,25 @@ main p {
 
 /* Flexbox cards */
 .cards {
-    background-color: rgb(151, 85, 151);
-    min-height: 300px;
     display: flex;
     justify-content: space-between;
 }
 .card1 {
-    background-color: rgb(131, 74, 131);
+    background-image: url(./images/image-background-card1.jpg);
+    background-size: cover;
     min-height: 300px;
+    background-position: center;
     width: 30%;
 }
 .card2 {
-    background-color: rgb(107, 60, 107);
-    min-height: 300px;
+    background-image: url(./images/image-background-card2.jpg);
+    background-size: cover;
+    background-position: center;
     width: 30%;
 }
 .card3 {
-    background-color: rgb(82, 46, 82);
-    min-height: 300px;
+    background-image: url(./images/image-background-card3.jpg);
+    background-size: cover;
+    background-position: center;
     width: 30%;
 }
