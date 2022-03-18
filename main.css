@@ -31,10 +31,25 @@ nav {
     text-align: end;
 }
 nav a {
+    font-family: 'Playfair Display', serif;
     text-decoration: none;
     color: white;
 }
+/* nav a.booking-button {
+    margin-left: 30px;
+} */
+.nav-button {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 11px 25px;
+    transition: color, border-color, 1s;
+}
+.nav-button:hover {
+    background-color: white;
+    color: #FC5E55;
+}
 
+/* MAIN CONTENT */
 main {
     min-height: 300px;
     display: flex;
@@ -44,6 +59,7 @@ main h1 {
     font-family: 'Playfair Display', serif;
     font-size: 3.25rem;
     margin-bottom: 1rem;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.228);
 }
 main p {
     line-height: 1.75rem;
@@ -54,10 +70,21 @@ main p {
     flex: 2;
     padding-right: 100px;
 }
+.booking-button {
+    background-color: white;
+    color: #FA4083;
+    font-family: 'Playfair Display', serif;
+    padding: 11px 25px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.228);
+}
 .herobox2 {
     flex: 1;
 }
-
+/* CARDS */
 /* Flexbox cards */
 .cards {
     display: flex;
@@ -67,7 +94,7 @@ main p {
 .cards p {
     font-size: 0.85rem;
     line-height: 1.2rem;
-    margin: 10px 30px 20px 30px;
+    /* margin: 10px 30px 20px 30px; */
 }
 .cards img {
     margin-top: 20px;
@@ -78,31 +105,50 @@ main p {
     min-height: 300px;
     background-position: center;
     width: 30%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.334);
 }
 .card1 h2 {
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
     margin-top: 20px;
 }
+.card1 a {
+    color: white;
+    text-decoration: none;
+}
 .card2 {
     background-image: url(./images/image-background-card2.jpg);
     background-size: cover;
     background-position: center;
     width: 30%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.334);
 }
 .card2 h2 {
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
     margin-top: 20px;
 }
+.card2 a {
+    color: white;
+    text-decoration: none;
+}
 .card3 {
     background-image: url(./images/image-background-card3.jpg);
     background-size: cover;
     background-position: center;
     width: 30%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.334);
 }
 .card3 h2 {
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
     margin-top: 20px;
+}
+.card3 a {
+    color: white;
+    text-decoration: none;
+}
+.card1, .card2, .card3 {
+    padding: 20px;
+    box-sizing: border-box;
 }
