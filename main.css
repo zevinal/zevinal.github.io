@@ -1,6 +1,8 @@
 /* html {
     height: 100%;
 } */
+
+/* Background properties, also base font-family, text colour, and font-size */
 body {
     background-color: #FC5E55;
     background: linear-gradient(#FC5E55, #FA4083);
@@ -8,12 +10,16 @@ body {
     color: white;
     font-size: 1.125rem;
 }
+
+/* Content Area parameters */
 .container {
     width: 1024px;
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Header Settings */
 header {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -23,34 +29,40 @@ header {
     border-bottom: 1px solid #CCCCCC;
 }
 
-/* Flexbox header */
+/* Header is a flexbox */
 .headerimage {
     flex: 1;
 }
+
+/* Navbar settings */
 nav {
     flex: 1;
     text-align: end;
 }
+
+/* Navbar hyperlink settings */
 nav a {
     font-family: 'Playfair Display', serif;
     text-decoration: none;
     color: white;
 }
-/* nav a.booking-button {
-    margin-left: 30px;
-} */
+
+/* Navbar button appearance */
 .nav-button {
     border: 1px solid white;
     border-radius: 5px;
     padding: 11px 25px;
     transition: color, border-color, 1s;
 }
+
+/* Navbar button animation */
 .nav-button:hover {
     background-color: white;
     color: #FC5E55;
 }
 
-/* MAIN CONTENT */
+/* Main Content parameters */
+/* Main Content is a flexbox */
 main {
     min-height: 300px;
     display: flex;
@@ -66,11 +78,14 @@ main p {
     line-height: 1.75rem;
     margin-bottom: 0.5rem;
 }
-/* Flexbox main */
+
+/* Left side of main content is .herobox1 */
 .herobox1 {
     flex: 2;
     padding-right: 100px;
 }
+
+/* Book Now button appearance */
 .booking-button {
     background-color: white;
     color: #FA4083;
@@ -79,14 +94,27 @@ main p {
     display: inline-block;
     margin-top: 20px;
     text-decoration: none;
+
+    /* Transparent border is here so it doesn't interfere with the content surrounding the button */
+    border: 1px solid transparent;
     border-radius: 5px;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.228);
+    transition: color, background-color, 1s;
 }
+
+/* Book Now button animation */
+.booking-button:hover {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+/* Right side of main content is .herobox2 */
 .herobox2 {
     flex: 1;
 }
-/* CARDS */
-/* Flexbox cards */
+/* Item Cards */
+/* Item Cards area is a flexbox */
 .cards {
     display: flex;
     justify-content: space-between;
@@ -100,6 +128,8 @@ main p {
 .cards img {
     margin-top: 20px;
 }
+
+/* First item card appearance and behaviour */
 .card1 {
     background-image: url(./images/image-background-card1.jpg);
     background-size: cover;
@@ -117,6 +147,8 @@ main p {
     color: white;
     text-decoration: none;
 }
+
+/* Second item card appearance and behaviour */
 .card2 {
     background-image: url(./images/image-background-card2.jpg);
     background-size: cover;
@@ -133,6 +165,8 @@ main p {
     color: white;
     text-decoration: none;
 }
+
+/* Third item card appearance and behaviour */
 .card3 {
     background-image: url(./images/image-background-card3.jpg);
     background-size: cover;
@@ -154,17 +188,27 @@ main p {
     box-sizing: border-box;
 }
 
-/* Testimonials Flexbox */
+/* Testimonials Area */
+/* Testimonials are now a flexbox */
 .testimonials {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 100px;
 }
+
+/* .tbox is the individual boxes housing the testimonials */
 .tbox {
     border: 1px solid white;
     width: 47%;
     padding: 50px;
     box-sizing: border-box;
     margin-top: 50px;
+}
+
+/* Every second <p> tag in a .tbox has these settings */
+.tbox :nth-child(2) {
+    font-size: 0.8rem;
+    padding-top: 30px;
+    text-indent: 10%;
 }
