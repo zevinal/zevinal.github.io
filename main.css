@@ -1,6 +1,6 @@
-html {
+/* html {
     height: 100%;
-}
+} */
 body {
     background-color: #FC5E55;
     background: linear-gradient(#FC5E55, #FA4083);
@@ -20,6 +20,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    border-bottom: 1px solid #CCCCCC;
 }
 
 /* Flexbox header */
@@ -39,7 +40,7 @@ nav a {
     margin-left: 30px;
 } */
 .nav-button {
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 5px;
     padding: 11px 25px;
     transition: color, border-color, 1s;
@@ -151,4 +152,19 @@ main p {
 .card1, .card2, .card3 {
     padding: 20px;
     box-sizing: border-box;
+}
+
+/* Testimonials Flexbox */
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.tbox {
+    border: 1px solid white;
+    width: 47%;
+    padding: 50px;
+    box-sizing: border-box;
+    margin-top: 50px;
 }
