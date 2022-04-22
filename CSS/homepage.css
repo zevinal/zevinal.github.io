@@ -5,6 +5,7 @@ body {
     font-weight: 400;
     font-style: normal;
     overflow-x: hidden;
+    margin: 0;
 }
 
 .margin {
@@ -15,6 +16,7 @@ body {
     position: relative;
     z-index: -1;
     background-color: #F9E0EB;
+    overflow: hidden;
 }
 
 .logo-top {
