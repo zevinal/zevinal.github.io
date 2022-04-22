@@ -1,0 +1,553 @@
+body {
+    background-color: lightblue;
+    max-width: 100%;
+    font-family: omnes-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow-x: hidden;
+}
+
+.margin {
+    width: 1366px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: -1;
+    background-color: #F9E0EB;
+}
+
+.logo-top {
+    margin: auto;
+    width: 767px;
+    height: 116px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.logo-container {
+    width: 500px;
+    height: 68px;
+    margin: auto;
+    padding-top: 26px;
+}
+
+.logo-container img {
+    width: 100%;
+}
+
+.testimonial-box-container {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.testimonial-50 {
+    width: 50%;
+    font-size: 150%;
+}
+
+.test-container {
+    width: 439px;
+    height: 144px;
+    margin: auto;
+}
+
+.test-client {
+    color: #FFB03D;
+}
+
+.video .video-background {
+    width: 900px;
+    height: 525px;
+    background-color: #FCB50F;
+    margin: auto;
+    transform: translate(20px, 20px);
+}
+
+.video .video-player video {
+    width: 900px;
+    height: 525px;
+    transform: translate(-20px, -20px);
+}
+
+.library {
+    margin-top: 60px;
+    height: 646px;
+    background-image: url(../images/box3-background-hp.png);
+    background-color: white;
+}
+
+.library .top-left-text {
+    width: 471px;
+    height: 110px;
+    color: #FFB03D;
+    font-size: 200%;
+    transform: translate(100px, 50px);
+}
+
+.library .middle-images {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    width: 561px;
+    height: 185px;
+    margin-top: 100px;
+}
+
+.library .click-button {
+    margin: auto;
+    margin-top: 40px;
+    width: 247px;
+    height: 44px;
+    border: solid;
+    border-color: #FFFFFF;
+    border-width: 5px;
+    background-color: #FFB03D;
+    border-radius: 40px;
+    color: white;
+    text-align: center;
+    font-size: 120%;
+    line-height: 6px;
+}
+
+.library .lower-text {
+    text-align: center;
+    font-size: 150%;
+    margin-top: 50px;
+}
+
+.game-1 {
+    background-color: #FDEB73;
+    height: 869px;
+}
+
+.game-1 .top-left-box {
+    width: 460px;
+    height: 167px;
+    color: white;
+    font-size: 200%;
+    transform: translate(200px, 50px);
+}
+
+.game-1 .top-left-box .video-background {
+    width: 560px;
+    height: 300px;
+    background-color: #E50A75;
+    transform: translate(-50px, 0px);
+}
+
+.game-1 .top-left-box .video-background video {
+    width: 100%;
+    height: 100%;
+    transform: translate(-20px, -20px);
+}
+
+.game-1 .bottom-left-box-background {
+    background-color: #99D8FF;
+    transform: translate(100px, 400px);
+    width: 540px;
+    height: 243px;
+}
+
+.game-1 .bottom-left-box-background .text-box {
+    background-color: white;
+    transform: translate(50px, -50px);
+    width: 540px;
+    height: 243px;
+    font-size: 150%;
+    text-align: center;
+    padding: 10px;
+}
+
+.game-1 .right-side-box {
+    width: 605px;
+    height: 766px;
+    background-image: url(../images/empire-building-background.png);
+    position: absolute;
+    transform: translate(783px, -150px);
+}
+
+.game-1 .right-side-box img {
+    width: 420px;
+    height: 450px;
+    margin: 30px;
+}
+
+.game-1 .right-side-box .click-button {
+    width: 370px;
+    height: 57px;
+    background-color: #FFB03D;
+    border: solid;
+    border-color: white;
+    border-width: 4px;
+    text-align: center;
+    font-size: 150%;
+    line-height: 4px;
+    color: white;
+    border-radius: 40px;
+    margin-left: 40px;
+}
+
+.game-2 {
+    background-color: #99D8FF;
+    height: 869px;
+}
+
+.game-2 .right-side-box {
+    width: 460px;
+    height: 167px;
+    color: white;
+    font-size: 200%;
+    transform: translate(700px, 50px);
+    text-align: right;
+}
+
+/* .game-2 .right-side-box .text{
+    } */
+
+.game-2 .right-side-box .video-background {
+    width: 560px;
+    height: 300px;
+    background-color: #FCB50F;
+    transform: translate(-10px, 0px);
+}
+
+.game-2 .right-side-box .video-background video {
+    width: 100%;
+    height: 100%;
+    transform: translate(20px, -20px);
+}
+
+.game-2 .bottom-left-box-background {
+    background-color: #FDEB73;
+    transform: translate(40px, 70px);
+    width: 530px;
+    height: 243px;
+}
+
+.game-2 .bottom-left-box-background .text-box {
+    background-color: white;
+    transform: translate(-50px, -50px);
+    width: 540px;
+    height: 243px;
+    font-size: 70%;
+    text-align: center;
+    padding: 10px;
+    color: black;
+}
+
+.game-2 .left-side-box {
+    width: 605px;
+    height: 766px;
+    background-image: url(../images/illustrious-background.png);
+    position: absolute;
+}
+
+.game-2 .left-side-box img {
+    width: 420px;
+    height: 450px;
+    margin: 30px;
+}
+
+.game-2 .left-side-box .click-button {
+    width: 370px;
+    height: 57px;
+    background-color: #FFB03D;
+    border: solid;
+    border-color: white;
+    border-width: 4px;
+    text-align: center;
+    font-size: 150%;
+    line-height: 4px;
+    color: white;
+    border-radius: 40px;
+    margin-left: 40px;
+}
+
+.game-3 {
+    background-color: #FDEB73;
+    height: 869px;
+}
+
+.game-3 .top-left-box {
+    width: 460px;
+    height: 167px;
+    color: white;
+    font-size: 200%;
+    transform: translate(200px, 50px);
+}
+
+.game-3 .top-left-box .video-background {
+    width: 560px;
+    height: 300px;
+    background-color: #E50A75;
+    transform: translate(-50px, 0px);
+}
+
+.game-3 .top-left-box .video-background video {
+    width: 100%;
+    height: 100%;
+    transform: translate(-20px, -20px);
+}
+
+.game-3 .bottom-left-box-background {
+    background-color: #99D8FF;
+    transform: translate(100px, 400px);
+    width: 540px;
+    height: 243px;
+}
+
+.game-3 .bottom-left-box-background .text-box {
+    background-color: white;
+    transform: translate(50px, -50px);
+    width: 540px;
+    height: 243px;
+    font-size: 150%;
+    text-align: center;
+    padding: 10px;
+}
+
+.game-3 .right-side-box {
+    width: 605px;
+    height: 766px;
+    background-image: url(../images/corporate-mouthpiece-background.png);
+    position: absolute;
+    transform: translate(783px, -150px);
+}
+
+.game-3 .right-side-box img {
+    width: 420px;
+    height: 450px;
+    margin: 30px;
+}
+
+.game-3 .right-side-box .click-button {
+    width: 370px;
+    height: 57px;
+    background-color: #FFB03D;
+    border: solid;
+    border-color: white;
+    border-width: 4px;
+    text-align: center;
+    font-size: 150%;
+    line-height: 4px;
+    color: white;
+    border-radius: 40px;
+    margin-left: 40px;
+}
+
+.epic-club {
+    height: 751px;
+    background-image: url(../images/box7-background.png);
+}
+
+.epic-club .epic-win-club-logo {
+    width: 1000px;
+    height: 116px;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.epic-club .epic-win-club-logo .epic-win-club-cont {
+    width: 371px;
+    margin: auto;
+    transform: translateY(20px);
+}
+
+.epic-club .coming-soon-outline {
+    width: 990px;
+    height: 531px;
+    border: solid;
+    border-color: white;
+    border-width: 5px;
+    margin: auto;
+}
+
+.epic-club .coming-soon-outline img {
+    transform: translate(300px, 150px);
+    width: 349px;
+    height: 166px;
+}
+
+.epic-club .coming-soon-outline .click-button {
+    background-color: #F8AE40;
+    width: 190px;
+    height: 38px;
+    border-radius: 30px;
+    line-height: 40px;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    transform: translate(390px, 250px);
+}
+
+/*footer*/
+.footer {
+    background-color: #333033;
+    height: 135px;
+    position: relative;
+    z-index: 2;
+}
+
+.footer-content {
+    height: 71px;
+    width: 539px;
+    font-size: 95%;
+    color: white;
+    margin: auto;
+    transform: translate(0px, 25px);
+    text-align: center;
+}
+
+.orange-shape {
+    width: 1443px;
+    height: 287px;
+    background-color: #FFB03D;
+    position: absolute;
+    transform: translate(-400px, -50px);
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+    z-index: -1;
+}
+
+.header-white-dots {
+    position: absolute;
+    transform: translate(1070px, 80px);
+}
+
+.header-yellow-circle {
+    width: 69px;
+    height: 69px;
+    background-color: #FDEB73;
+    position: absolute;
+    transform: translate(1130px, 100px);
+    border-radius: 100px;
+}
+
+.header-triangle {
+    position: absolute;
+    transform: translate(1200px, 0px);
+    z-index: -2;
+}
+
+.header-blue-square {
+    width: 1002px;
+    height: 1099px;
+    position: absolute;
+    transform: translate(780px, -450px);
+    z-index: -3;
+    background-color: #99D8FF;
+    overflow: hidden;
+}
+
+.blue-shape-left {
+    width: 1002px;
+    height: 737px;
+    position: absolute;
+    transform: translate(-600px, 650px);
+    z-index: -1;
+    background-color: #99D8FF;
+    overflow: hidden;
+    border-radius: 500px;
+}
+
+.yellow-shape {
+    width: 125px;
+    height: 353px;
+    position: absolute;
+    z-index: -3;
+    background-color: #FDEB73;
+    border-radius: 100px;
+}
+
+.yellow-shape-foreground {
+    border: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 100px;
+    width: 100%;
+    height: 100%;
+}
+
+.ys-l .yellow-shape-foreground {
+    transform: translate(50px, 70px);
+}
+
+.ys-r .yellow-shape-foreground {
+    transform: translate(-50px, 70px);
+}
+
+.ys-l {
+    transform: translate(0px, 400px);
+}
+
+.ys-r {
+    transform: translate(1241px, 400px);
+    z-index: -4;
+}
+
+.game-1-white-triangle {
+    position: absolute;
+    transform: translate(-275px, 1600px);
+}
+
+.game-2-purple-circle {
+    width: 40px;
+    height: 40px;
+    background-color: #E50A75;
+    position: absolute;
+    transform: translate(1230px, 2450px);
+    border-radius: 100px;
+}
+
+.game-2-triangle-border {
+    position: absolute;
+    transform: translate(1275px, 2665px);
+}
+
+.game-2-white-dots {
+    position: absolute;
+    transform: translate(400px, 3220px);
+}
+
+.game-2-white-circle {
+    position: absolute;
+    transform: translate(1080px, 2385px);
+}
+
+.game-1-white-dots {
+    position: absolute;
+    transform: translate(10px, 2140px);
+}
+
+.game-3-white-triangle {
+    position: absolute;
+    transform: translate(-270px, 3530px);
+}
+
+.game-3-white-dots {
+    position: absolute;
+    transform: translate(-320px, 4000px);
+}
+
+.game-3-purple-circle {
+    width: 40px;
+    height: 40px;
+    background-color: #E50A75;
+    position: absolute;
+    transform: translate(40px, 3380px);
+    border-radius: 100px;
+}
+
+.game-3-white-circle {
+    position: absolute;
+    transform: translate(20px, 3240px);
+}
