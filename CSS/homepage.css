@@ -7,7 +7,7 @@ body {
     overflow-x: hidden;
     margin: 0;
 }
-
+/* Main Content Area */
 .margin {
     width: 1366px;
     margin: auto;
@@ -18,7 +18,7 @@ body {
     background-color: #F9E0EB;
     overflow: hidden;
 }
-
+/* Header Logo */
 .logo-top {
     margin: auto;
     width: 767px;
@@ -64,7 +64,7 @@ body {
 .test-client {
     color: #FFB03D;
 }
-
+/* Video Content */
 .video .video-background {
     width: 900px;
     height: 525px;
@@ -78,7 +78,7 @@ body {
     height: 525px;
     transform: translate(-20px, -20px);
 }
-
+/* Games Library Content */
 .library {
     margin-top: 60px;
     height: 646px;
@@ -91,7 +91,10 @@ body {
     height: 110px;
     color: #FFB03D;
     font-size: 200%;
-    transform: translate(100px, 50px);
+    /* transform: translate(100px, 50px); */
+    left: 100px;
+    top: 50px;
+    position: relative;
 }
 
 .library .middle-images {
@@ -124,7 +127,7 @@ body {
     font-size: 150%;
     margin-top: 50px;
 }
-
+/* First Game Content */
 .game-1 {
     background-color: #FDEB73;
     height: 869px;
@@ -135,7 +138,10 @@ body {
     height: 167px;
     color: white;
     font-size: 200%;
-    transform: translate(200px, 50px);
+    /* transform: translate(200px, 50px); */
+    left: 200px;
+    top: 50px;
+    position: relative;
 }
 
 .game-1 .top-left-box .video-background {
@@ -153,19 +159,25 @@ body {
 
 .game-1 .bottom-left-box-background {
     background-color: #99D8FF;
-    transform: translate(100px, 400px);
+    /* transform: translate(100px, 400px); */
     width: 540px;
     height: 243px;
+    left: 100px;
+    top: 400px;
+    position: relative;
 }
 
 .game-1 .bottom-left-box-background .text-box {
     background-color: white;
-    transform: translate(50px, -50px);
+    /* transform: translate(50px, -50px); */
     width: 540px;
     height: 243px;
     font-size: 150%;
     text-align: center;
     padding: 10px;
+    left: 50px;
+    top: -50px;
+    position: relative;
 }
 
 .game-1 .right-side-box {
@@ -196,7 +208,7 @@ body {
     border-radius: 40px;
     margin-left: 40px;
 }
-
+/* Second Game Content */
 .game-2 {
     background-color: #99D8FF;
     height: 869px;
@@ -207,8 +219,11 @@ body {
     height: 167px;
     color: white;
     font-size: 200%;
-    transform: translate(700px, 50px);
+    /* transform: translate(700px, 50px); */
     text-align: right;
+    left: 700px;
+    top: 50px;
+    position: relative;
 }
 
 /* .game-2 .right-side-box .text{
@@ -229,20 +244,26 @@ body {
 
 .game-2 .bottom-left-box-background {
     background-color: #FDEB73;
-    transform: translate(40px, 70px);
+    /* transform: translate(40px, 70px); */
     width: 530px;
     height: 243px;
+    left: 40px;
+    top: 70px;
+    position: relative;
 }
 
 .game-2 .bottom-left-box-background .text-box {
     background-color: white;
-    transform: translate(-50px, -50px);
+    /* transform: translate(-50px, -50px); */
     width: 540px;
     height: 243px;
     font-size: 70%;
     text-align: center;
     padding: 10px;
     color: black;
+    left: -50px;
+    top: -50px;
+    position: relative;
 }
 
 .game-2 .left-side-box {
@@ -272,7 +293,7 @@ body {
     border-radius: 40px;
     margin-left: 40px;
 }
-
+/* Third Game Content */
 .game-3 {
     background-color: #FDEB73;
     height: 869px;
@@ -283,7 +304,10 @@ body {
     height: 167px;
     color: white;
     font-size: 200%;
-    transform: translate(200px, 50px);
+    /* transform: translate(200px, 50px); */
+    left: 200px;
+    top: 50px;
+    position: relative;
 }
 
 .game-3 .top-left-box .video-background {
@@ -301,19 +325,25 @@ body {
 
 .game-3 .bottom-left-box-background {
     background-color: #99D8FF;
-    transform: translate(100px, 400px);
+    /* transform: translate(100px, 400px); */
     width: 540px;
     height: 243px;
+    left: 100px;
+    top: 400px;
+    position: relative;
 }
 
 .game-3 .bottom-left-box-background .text-box {
     background-color: white;
-    transform: translate(50px, -50px);
+    /* transform: translate(50px, -50px); */
     width: 540px;
     height: 243px;
     font-size: 150%;
     text-align: center;
     padding: 10px;
+    left: 50px;
+    top: -50px;
+    position: relative;
 }
 
 .game-3 .right-side-box {
@@ -344,7 +374,7 @@ body {
     border-radius: 40px;
     margin-left: 40px;
 }
-
+/* EpicWin Club Content Area */
 .epic-club {
     height: 751px;
     background-image: url(../Images/box7-background.png);
@@ -388,10 +418,13 @@ body {
     color: white;
     text-align: center;
     text-decoration: underline;
-    transform: translate(390px, 250px);
+    /* transform: translate(390px, 250px); */
+    left: 390px;
+    top: 250px;
+    position: relative;
 }
 
-/*footer*/
+/* Footer */
 .footer {
     background-color: #333033;
     height: 135px;
@@ -405,10 +438,15 @@ body {
     font-size: 95%;
     color: white;
     margin: auto;
-    transform: translate(0px, 25px);
+    /* transform: translate(0px, 25px); */
     text-align: center;
+    top: 25px;
+    position: relative;
 }
 
+
+/* Shapes */
+/* Leftside of Header Orange Box */
 .orange-shape {
     width: 1443px;
     height: 287px;
@@ -419,12 +457,12 @@ body {
     border-bottom-right-radius: 200px;
     z-index: -1;
 }
-
+/* White Dots Top Right of Header */
 .header-white-dots {
     position: absolute;
     transform: translate(1070px, 80px);
 }
-
+/* Yellow Circle Top Right of Header */
 .header-yellow-circle {
     width: 69px;
     height: 69px;
@@ -433,13 +471,13 @@ body {
     transform: translate(1130px, 100px);
     border-radius: 100px;
 }
-
+/* Yellow Triangle Top Right of Header */
 .header-triangle {
     position: absolute;
     transform: translate(1200px, 0px);
     z-index: -2;
 }
-
+/* Blue Square Rightside of Video and Header */
 .header-blue-square {
     width: 1002px;
     height: 1099px;
@@ -449,7 +487,7 @@ body {
     background-color: #99D8FF;
     overflow: hidden;
 }
-
+/* Blue Round Bottom Left of Video */
 .blue-shape-left {
     width: 1002px;
     height: 737px;
@@ -460,7 +498,7 @@ body {
     overflow: hidden;
     border-radius: 500px;
 }
-
+/* Yellow Arches Left and Right Sides of Video */
 .yellow-shape {
     width: 125px;
     height: 353px;
@@ -469,7 +507,7 @@ body {
     background-color: #FDEB73;
     border-radius: 100px;
 }
-
+/* White Outline Arches Left and Right Sides of Video */
 .yellow-shape-foreground {
     border: solid;
     border-color: white;
@@ -478,29 +516,29 @@ body {
     width: 100%;
     height: 100%;
 }
-
+/* White Arch Left Side of Video */
 .ys-l .yellow-shape-foreground {
     transform: translate(50px, 70px);
 }
-
+/* White Arch Right Side of Video */
 .ys-r .yellow-shape-foreground {
     transform: translate(-50px, 70px);
 }
-
+/* Yellow Arch Left Side of Video */
 .ys-l {
     transform: translate(0px, 400px);
 }
-
+/* Yellow Arch Right Side of Video */
 .ys-r {
     transform: translate(1241px, 400px);
     z-index: -4;
 }
-
+/* White Triangle Left Side of Game 1 Content */
 .game-1-white-triangle {
     position: absolute;
     transform: translate(-275px, 1600px);
 }
-
+/* Purple Circle Top Right of Game 2 Content */
 .game-2-purple-circle {
     width: 40px;
     height: 40px;
@@ -509,37 +547,37 @@ body {
     transform: translate(1230px, 2450px);
     border-radius: 100px;
 }
-
+/* White Outline Triangle Right Side of Game 2 Content */
 .game-2-triangle-border {
     position: absolute;
     transform: translate(1275px, 2665px);
 }
-
+/* White Dots Bottom of Game 2 Content */
 .game-2-white-dots {
     position: absolute;
     transform: translate(400px, 3220px);
 }
-
+/* White Outline Circle Top Right of Game 2 Content */
 .game-2-white-circle {
     position: absolute;
     transform: translate(1080px, 2385px);
 }
-
+/* White Dots Underneath Video Player of Game 1 Content */
 .game-1-white-dots {
     position: absolute;
     transform: translate(10px, 2140px);
 }
-
+/* White Triangle Left Side of Game 3 Content */
 .game-3-white-triangle {
     position: absolute;
     transform: translate(-270px, 3530px);
 }
-
+/* White Dots Bottom Left of Game 3 Content */
 .game-3-white-dots {
     position: absolute;
     transform: translate(-320px, 4000px);
 }
-
+/* Purple Circle Top Left of Game 3 Content */
 .game-3-purple-circle {
     width: 40px;
     height: 40px;
@@ -548,7 +586,7 @@ body {
     transform: translate(40px, 3380px);
     border-radius: 100px;
 }
-
+/* White Outline Circle Top Left of Game 3 Content */
 .game-3-white-circle {
     position: absolute;
     transform: translate(20px, 3240px);
