@@ -1,6 +1,3 @@
-html {
-    scroll-behavior: smooth;
-}
 body {
     background-color: lightblue;
     max-width: 100%;
@@ -17,9 +14,9 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
+    z-index: -1;
     background-color: #F9E0EB;
     overflow: hidden;
-    /* z-index: -1; */
 }
 /* Header Logo */
 .logo-top {
@@ -30,8 +27,6 @@ body {
     border-top-right-radius: 30px;
     background-color: white;
     margin-top: 20px;
-    position: relative;
-    z-index: 50;
 }
 
 .logo-container {
@@ -52,7 +47,7 @@ body {
     background-color: white;
     margin-bottom: 30px;
     position: relative;
-    z-index: 50;
+    z-index: 2;
 }
 
 .testimonial-50 {
@@ -76,8 +71,6 @@ body {
     background-color: #FCB50F;
     margin: auto;
     transform: translate(20px, 20px);
-    position: relative;
-    z-index: 50;
 }
 
 .video .video-player video {
@@ -91,20 +84,17 @@ body {
     height: 646px;
     background-image: url(../images/box3-background-hp.png);
     background-color: white;
-    /* padding-bottom: 50px; */
-    z-index: 50;
 }
 
 .library .top-left-text {
-    /* width: 471px; */
+    width: 471px;
     height: 110px;
     color: #FFB03D;
     font-size: 200%;
     /* transform: translate(100px, 50px); */
-    /* left: 100px; */
+    left: 100px;
     top: 50px;
     position: relative;
-    text-align: center;
 }
 
 .library .middle-images {
@@ -113,7 +103,7 @@ body {
     justify-content: space-evenly;
     width: 561px;
     height: 185px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .library .click-button {
@@ -135,9 +125,7 @@ body {
 .library .lower-text {
     text-align: center;
     font-size: 150%;
-    /* margin-top: 50px; */
-    width: 561px;
-    margin: 50px auto;
+    margin-top: 50px;
 }
 /* First Game Content */
 .game-1 {
@@ -190,7 +178,6 @@ body {
     left: 50px;
     top: -50px;
     position: relative;
-    z-index: 1;
 }
 
 .game-1 .right-side-box {
@@ -277,8 +264,6 @@ body {
     left: -50px;
     top: -50px;
     position: relative;
-    display: flex;
-    align-items: center;
 }
 
 .game-2 .left-side-box {
@@ -359,8 +344,6 @@ body {
     left: 50px;
     top: -50px;
     position: relative;
-    display: flex;
-    align-items: center;
 }
 
 .game-3 .right-side-box {
@@ -472,13 +455,12 @@ body {
     transform: translate(-400px, -50px);
     border-top-right-radius: 200px;
     border-bottom-right-radius: 200px;
-    z-index: 4;
+    z-index: -1;
 }
 /* White Dots Top Right of Header */
 .header-white-dots {
     position: absolute;
     transform: translate(1070px, 80px);
-    z-index: 4;
 }
 /* Yellow Circle Top Right of Header */
 .header-yellow-circle {
@@ -488,13 +470,12 @@ body {
     position: absolute;
     transform: translate(1130px, 100px);
     border-radius: 100px;
-    z-index: 4;
 }
 /* Yellow Triangle Top Right of Header */
 .header-triangle {
     position: absolute;
     transform: translate(1200px, 0px);
-    z-index: 4;
+    z-index: -2;
 }
 /* Blue Square Rightside of Video and Header */
 .header-blue-square {
@@ -502,7 +483,7 @@ body {
     height: 1099px;
     position: absolute;
     transform: translate(780px, -450px);
-    z-index: 3;
+    z-index: -3;
     background-color: #99D8FF;
     overflow: hidden;
 }
@@ -512,7 +493,7 @@ body {
     height: 737px;
     position: absolute;
     transform: translate(-600px, 650px);
-    z-index: 2;
+    z-index: -1;
     background-color: #99D8FF;
     overflow: hidden;
     border-radius: 500px;
@@ -522,7 +503,7 @@ body {
     width: 125px;
     height: 353px;
     position: absolute;
-    z-index: 1;
+    z-index: -3;
     background-color: #FDEB73;
     border-radius: 100px;
 }
@@ -550,7 +531,7 @@ body {
 /* Yellow Arch Right Side of Video */
 .ys-r {
     transform: translate(1241px, 400px);
-    z-index: 2;
+    z-index: -4;
 }
 /* White Triangle Left Side of Game 1 Content */
 .game-1-white-triangle {
@@ -609,14 +590,4 @@ body {
 .game-3-white-circle {
     position: absolute;
     transform: translate(20px, 3240px);
-}
-/* Buttons */
-.click-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-a {
-    text-decoration: none;
 }
