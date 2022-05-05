@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: lightblue;
     max-width: 100%;
@@ -14,7 +17,6 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
-    z-index: -1;
     background-color: #F9E0EB;
     overflow: hidden;
 }
@@ -82,19 +84,21 @@ body {
 .library {
     margin-top: 60px;
     height: 646px;
-    background-image: url(../Images/box3-background-hp.png);
+    background-image: url(../images/box3-background-hp.png);
     background-color: white;
+    /* padding-bottom: 50px; */
 }
 
 .library .top-left-text {
-    width: 471px;
+    /* width: 471px; */
     height: 110px;
     color: #FFB03D;
     font-size: 200%;
     /* transform: translate(100px, 50px); */
-    left: 100px;
+    /* left: 100px; */
     top: 50px;
     position: relative;
+    text-align: center;
 }
 
 .library .middle-images {
@@ -103,7 +107,7 @@ body {
     justify-content: space-evenly;
     width: 561px;
     height: 185px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .library .click-button {
@@ -125,7 +129,9 @@ body {
 .library .lower-text {
     text-align: center;
     font-size: 150%;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    width: 561px;
+    margin: 50px auto;
 }
 /* First Game Content */
 .game-1 {
@@ -178,12 +184,13 @@ body {
     left: 50px;
     top: -50px;
     position: relative;
+    z-index: 1;
 }
 
 .game-1 .right-side-box {
     width: 605px;
     height: 766px;
-    background-image: url(../Images/empire-building-background.png);
+    background-image: url(../images/empire-building-background.png);
     position: absolute;
     transform: translate(783px, -150px);
 }
@@ -264,12 +271,14 @@ body {
     left: -50px;
     top: -50px;
     position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .game-2 .left-side-box {
     width: 605px;
     height: 766px;
-    background-image: url(../Images/illustrious-background.png);
+    background-image: url(../images/illustrious-background.png);
     position: absolute;
 }
 
@@ -344,12 +353,14 @@ body {
     left: 50px;
     top: -50px;
     position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .game-3 .right-side-box {
     width: 605px;
     height: 766px;
-    background-image: url(../Images/corporate-mouthpiece-background.png);
+    background-image: url(../images/corporate-mouthpiece-background.png);
     position: absolute;
     transform: translate(783px, -150px);
 }
@@ -377,7 +388,7 @@ body {
 /* EpicWin Club Content Area */
 .epic-club {
     height: 751px;
-    background-image: url(../Images/box7-background.png);
+    background-image: url(../images/box7-background.png);
 }
 
 .epic-club .epic-win-club-logo {
@@ -590,4 +601,14 @@ body {
 .game-3-white-circle {
     position: absolute;
     transform: translate(20px, 3240px);
+}
+/* Buttons */
+.click-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
 }
