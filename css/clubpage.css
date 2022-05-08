@@ -1,0 +1,148 @@
+body {
+    background-color: lightblue;
+    max-width: 100%;
+    font-family: omnes-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.margin {
+    width: 1366px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-top {
+    margin: auto;
+    width: 364px;
+    height: 116px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.logo-container {
+    width: 500px;
+    height: 68px;
+    margin: auto;
+    padding-top: 26px;
+}
+
+.logo-container img{
+    width: 48%;
+}
+
+.testimonial-box-container {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.testimonial-50 {
+    width: 100%;
+}
+
+.test-container {
+    width: 1366px;
+    height: 181px;
+    margin: auto;
+}
+.box2-top-strip {
+    width: 1366px;
+    height: 16px;
+    background-color: white;
+}
+
+    .box2 {
+        height: 630px;
+        background-image: url(../images/box2-background.png);
+    }
+        .box2 .newsletter{
+            width: 360px;
+            height: 646px;
+            background-color: white;
+            margin: auto;
+        }
+
+            .box2 .newsletter .click-button {
+                background-color: #F8AE40;
+                width: 190px;
+                height: 38px;
+                border-radius: 30px;
+                line-height: 40px;
+                color: white;
+                text-align: center;
+                text-decoration: underline;
+                transform: translate(85px, 420px)
+            }
+
+/*footer*/
+.footer {
+    background-color: #333033;
+    height: 135px;
+    position: relative;
+    z-index: 2;
+}
+
+.footer-content {
+    height: 71px;
+    width: 539px;
+    font-size: 95%;
+    color: white;
+    margin: auto;
+    transform: translate(0px, 25px);
+    text-align: center;
+}
+
+/*Details*/
+.orange-shape {
+    width: 1443px;
+    height: 287px;
+    background-color: #FFB03D;
+    position: absolute;
+    transform: translate(-400px, -50px);
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+    z-index: -1;
+}
+
+.yellow-circle {
+    width: 69px;
+    height: 69px;
+    background-color: #FDEB73;
+    position: absolute;
+    transform: translate(1130px, 100px);
+    border-radius: 100px;
+}
+
+.four-high-dotted {
+    position: absolute;
+    transform: translate(1070px, 80px);
+}
+
+.pink-strip {
+    position: absolute;
+    transform: translate(0px, 316px);
+}
+
+.yellow-triangle {
+    position: absolute;
+    transform: translate(1200px, 5px);
+    z-index: -2;
+}
+
+.coming-soon-left {
+    position: absolute;
+    transform: translate(75px, 525px)
+}
+
+.coming-soon-right {
+    position: absolute;
+    transform: translate(940px, 525px);
+}
