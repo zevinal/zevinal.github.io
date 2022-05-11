@@ -72,7 +72,7 @@ body {
 /* Video Content */
 .video .video-background {
     width: 900px;
-    height: 525px;
+    height: 506px;
     background-color: #FCB50F;
     margin: auto;
     transform: translate(20px, 20px);
@@ -80,9 +80,10 @@ body {
     z-index: 50;
 }
 
-.video .video-player video {
+.video .video-player video,
+.vimeo {
     width: 900px;
-    height: 525px;
+    height: 506px;
     transform: translate(-20px, -20px);
 }
 /* Games Library Content */
@@ -158,7 +159,7 @@ body {
 
 .game-1 .top-left-box .video-background {
     width: 560px;
-    height: 300px;
+    height: 315px;
     background-color: #E50A75;
     transform: translate(-50px, 0px);
 }
@@ -244,7 +245,7 @@ body {
 
 .game-2 .right-side-box .video-background {
     width: 560px;
-    height: 300px;
+    height: 315px;
     background-color: #FCB50F;
     transform: translate(-10px, 0px);
 }
@@ -327,7 +328,7 @@ body {
 
 .game-3 .top-left-box .video-background {
     width: 560px;
-    height: 300px;
+    height: 315px;
     background-color: #E50A75;
     transform: translate(-50px, 0px);
 }
@@ -620,6 +621,10 @@ body {
 a {
     text-decoration: none;
 }
-/* #_form_3_._inline-form, #_form_3_._inline-form ._form-content, #_form_3_._inline-form input, #_form_3_._inline-form ._submit {
-    z-index: 4;
-} */
+.play-button {
+    position: absolute;
+    top: -240px;
+    left: -45px;
+    transform: scale(0.5);
+    cursor: pointer;
+}

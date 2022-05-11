@@ -7,9 +7,10 @@
     <meta content="EpicWin Arcade" property="og:title">
     <meta content="Short fun team games you play in your browser during Zoom meetings. Perfect for hybrid and remote teams." property="og:description">
     <meta content="EpicWin.Team" property="og:site_name">
-    <meta content="http://epicwin.team/images/LogoCard2.png" property="og:image">
+    <meta content="http://epicwin.team/images/LogoCard.png" property="og:image">
     <meta content="summary_large_image" name="twitter:card">
     <link rel="stylesheet" href="css/homepage.css" />
+    <script src="https://player.vimeo.com/api/player.js"></script>
 </head>
 <body>
     <div class="margin">
@@ -46,7 +47,12 @@
         <div class="video">
             <div class="video-background">
                 <div class="video-player">
-                    <div class="vimeo"><iframe src="https://player.vimeo.com/video/705182804?h=b4d09ba017" width="900" height="525" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+                    <div class="vimeo" id="video"><iframe src="https://player.vimeo.com/video/705182804?h=b4d09ba017" width="900" height="506" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+                    <div class="play-button" id="play-button">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewbox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+                      </svg>
+                    </div>
                 </div>
             </div>
         </div> <!-- /video -->
@@ -78,7 +84,9 @@
                     </p>
                 </div>
                 <div class="video-background">
-		  <iframe src="https://player.vimeo.com/video/705182804?h=b4d09ba017&amp;title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="300" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="EpicWin.Team - Welcome Video"></iframe>
+                    <video controls>
+                        <source src="https://player.vimeo.com/progressive_redirect/playback/705182804/rendition/1080p/file.mp4?loc=external&signature=e71e94feacc999efc0c654aeced6581497048603c6db0f53ef7eae5056335458" type="video/mp4">
+                    </video>
                 </div>
             </div>
             <div class="right-side-box">
@@ -111,7 +119,9 @@
                     </p>
                 </div>
                 <div class="video-background">
-			  <iframe src="https://player.vimeo.com/video/705182804?h=b4d09ba017&amp;title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="300" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="EpicWin.Team - Welcome Video"></iframe>
+                    <video controls>
+                        <source src="https://player.vimeo.com/progressive_redirect/playback/705182804/rendition/1080p/file.mp4?loc=external&signature=e71e94feacc999efc0c654aeced6581497048603c6db0f53ef7eae5056335458" type="video/mp4">
+                    </video>
                 </div>
                 <div class=" bottom-left-box-background">
                     <div class="text-box">
@@ -130,7 +140,9 @@
                     </p>
                 </div>
                 <div class="video-background">
-		  <iframe src="https://player.vimeo.com/video/705182804?h=b4d09ba017&amp;title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="300" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="EpicWin.Team - Welcome Video"></iframe>
+                    <video controls>
+                        <source src="https://player.vimeo.com/progressive_redirect/playback/705182804/rendition/1080p/file.mp4?loc=external&signature=e71e94feacc999efc0c654aeced6581497048603c6db0f53ef7eae5056335458" type="video/mp4">
+                    </video>
                 </div>
             </div>
             <div class="right-side-box">
@@ -234,5 +246,7 @@ Copyright 2021,2022 EpicWin.Team, from MaasaiMosh Games a trading name of Natura
             <!--White Circle Border-->
         </div>
     </div> <!-- /margin -->
+    <script src="https://d1tdp7z6w94jbb.cloudfront.net/js/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script><script src="https://assets.website-files.com/5ce6b007191f0314aae98b61/js/webflow.7d27e896a.js" type="text/javascript"></script>
+      <script src="script.js"></script>
 </body>
 </html>
