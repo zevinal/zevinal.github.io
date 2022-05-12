@@ -1,0 +1,595 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: lightblue;
+    max-width: 100%;
+    font-family: omnes-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow-x: hidden;
+    margin: 0;
+}
+/* Main Content Area */
+.margin {
+    width: 1366px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #F9E0EB;
+    overflow: hidden;
+}
+/* Header Logo */
+.logo-top {
+    margin: auto;
+    width: 767px;
+    height: 116px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: white;
+    margin-top: 20px;
+    position: relative;
+    z-index: 50;
+}
+
+.logo-container {
+    width: 500px;
+    height: 68px;
+    margin: auto;
+    padding-top: 26px;
+}
+
+.logo-container img {
+    width: 100%;
+}
+
+.testimonial-box-container {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 50;
+}
+
+.testimonial-50 {
+    width: 50%;
+    font-size: 150%;
+}
+
+.test-container {
+    width: 439px;
+    height: 144px;
+    margin: auto;
+}
+
+.test-client {
+    color: #FFB03D;
+}
+/* Game Content */
+.game {
+    text-align: center;
+}
+.game .game-background {
+    width: 900px;
+    height: 506px;
+    background-image: url(../images/box2background.png);
+    background-color: white;
+    margin: auto;
+    transform: translate(20px, 20px);
+    position: relative;
+    z-index: 50;
+}
+
+/* Games Library Content */
+.library {
+    margin-top: 60px;
+    height: 646px;
+    background-image: url(../images/box3-background-hp.png);
+    background-color: white;
+    z-index: 50;
+}
+
+.library .top-left-text {
+    height: 110px;
+    color: #FFB03D;
+    font-size: 200%;
+    top: 50px;
+    position: relative;
+    text-align: center;
+}
+
+.library .middle-images {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    width: 561px;
+    height: 185px;
+    margin-top: 50px;
+}
+
+.library .click-button {
+    margin: auto;
+    margin-top: 40px;
+    width: 247px;
+    height: 44px;
+    border: solid;
+    border-color: #FFFFFF;
+    border-width: 5px;
+    background-color: #FFB03D;
+    border-radius: 40px;
+    color: white;
+    text-align: center;
+    font-size: 120%;
+    line-height: 6px;
+}
+
+.library .lower-text {
+    text-align: center;
+    font-size: 150%;
+    width: 561px;
+    margin: 50px auto;
+}
+/* First Game Content */
+.game-1 {
+    background-color: #FDEB73;
+    height: 869px;
+}
+
+.game-1 .top-left-box {
+    width: 460px;
+    height: 167px;
+    color: white;
+    font-size: 200%;
+    left: 200px;
+    top: 50px;
+    position: relative;
+}
+
+.game-1 .top-left-box .game-background {
+    width: 560px;
+    height: 315px;
+    background-color: #E50A75;
+    transform: translate(-50px, 0px);
+}
+
+.game-1 .bottom-left-box-background {
+    background-color: #99D8FF;
+    width: 540px;
+    height: 243px;
+    left: 100px;
+    top: 400px;
+    position: relative;
+}
+
+.game-1 .bottom-left-box-background .text-box {
+    background-color: white;
+    width: 540px;
+    height: 243px;
+    font-size: 150%;
+    text-align: center;
+    padding: 10px;
+    left: 50px;
+    top: -50px;
+    position: relative;
+    z-index: 1;
+}
+
+.game-1 .right-side-box {
+    width: 605px;
+    height: 766px;
+    background-image: url(../images/empire-building-background.png);
+    position: absolute;
+    transform: translate(783px, -150px);
+}
+
+.game-1 .right-side-box img {
+    width: 420px;
+    height: 450px;
+    margin: 30px;
+}
+
+.game-1 .right-side-box .click-button {
+    width: 370px;
+    height: 57px;
+    background-color: #FFB03D;
+    border: solid;
+    border-color: white;
+    border-width: 4px;
+    text-align: center;
+    font-size: 150%;
+    line-height: 4px;
+    color: white;
+    border-radius: 40px;
+    margin-left: 40px;
+}
+/* Second Game Content */
+.game-2 {
+    background-color: #99D8FF;
+    height: 869px;
+}
+
+.game-2 .right-side-box {
+    width: 460px;
+    height: 167px;
+    color: white;
+    font-size: 200%;
+    text-align: right;
+    left: 700px;
+    top: 50px;
+    position: relative;
+}
+
+.game-2 .right-side-box .video-background {
+    width: 560px;
+    height: 315px;
+    background-color: #FCB50F;
+    transform: translate(-10px, 0px);
+}
+
+.game-2 .right-side-box .video-background video {
+    width: 100%;
+    height: 100%;
+    transform: translate(20px, -20px);
+}
+
+.game-2 .bottom-left-box-background {
+    background-color: #FDEB73;
+    width: 530px;
+    height: 243px;
+    left: 40px;
+    top: 70px;
+    position: relative;
+}
+
+.game-2 .bottom-left-box-background .text-box {
+    background-color: white;
+    width: 540px;
+    height: 243px;
+    font-size: 70%;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    left: -50px;
+    top: -50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.game-2 .left-side-box {
+    width: 605px;
+    height: 766px;
+    background-image: url(../images/illustrious-background.png);
+    position: absolute;
+}
+
+.game-2 .left-side-box img {
+    width: 420px;
+    height: 450px;
+    margin: 30px;
+}
+
+.game-2 .left-side-box .click-button {
+    width: 370px;
+    height: 57px;
+    background-color: #FFB03D;
+    border: solid;
+    border-color: white;
+    border-width: 4px;
+    text-align: center;
+    font-size: 150%;
+    line-height: 4px;
+    color: white;
+    border-radius: 40px;
+    margin-left: 40px;
+}
+/* Third Game Content */
+.game-3 {
+    background-color: #FDEB73;
+    height: 869px;
+}
+
+.game-3 .top-left-box {
+    width: 460px;
+    height: 167px;
+    color: white;
+    font-size: 200%;
+    left: 200px;
+    top: 50px;
+    position: relative;
+}
+
+.game-3 .top-left-box .video-background {
+    width: 560px;
+    height: 315px;
+    background-color: #E50A75;
+    transform: translate(-50px, 0px);
+}
+
+.game-3 .top-left-box .video-background video {
+    width: 100%;
+    height: 100%;
+    transform: translate(-20px, -20px);
+}
+
+.game-3 .bottom-left-box-background {
+    background-color: #99D8FF;
+    width: 540px;
+    height: 243px;
+    left: 100px;
+    top: 400px;
+    position: relative;
+}
+
+.game-3 .bottom-left-box-background .text-box {
+    background-color: white;
+    width: 540px;
+    height: 243px;
+    font-size: 150%;
+    text-align: center;
+    padding: 10px;
+    left: 50px;
+    top: -50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.game-3 .right-side-box {
+    width: 605px;
+    height: 766px;
+    background-image: url(../images/busybee-background.png);
+    position: absolute;
+    transform: translate(783px, -150px);
+}
+
+.game-3 .right-side-box img {
+    width: 420px;
+    height: 450px;
+    margin: 30px;
+}
+
+.game-3 .right-side-box .click-button {
+    width: 370px;
+    height: 57px;
+    background-color: #FFB03D;
+    border: solid;
+    border-color: white;
+    border-width: 4px;
+    text-align: center;
+    font-size: 150%;
+    line-height: 4px;
+    color: white;
+    border-radius: 40px;
+    margin-left: 40px;
+}
+/* EpicWin Club Content Area */
+.epic-club {
+    height: 751px;
+    background-image: url(../images/box7-background.png);
+}
+
+.epic-club .epic-win-club-logo {
+    width: 1000px;
+    height: 116px;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.epic-club .epic-win-club-logo .epic-win-club-cont {
+    width: 371px;
+    margin: auto;
+    transform: translateY(20px);
+}
+
+.epic-club .coming-soon-outline {
+    width: 990px;
+    height: 531px;
+    border: solid;
+    border-color: white;
+    border-width: 5px;
+    margin: auto;
+}
+
+.epic-club .coming-soon-outline img {
+    transform: translate(300px, 150px);
+    width: 349px;
+    height: 166px;
+}
+
+.epic-club .coming-soon-outline .click-button {
+    background-color: #F8AE40;
+    width: 190px;
+    height: 38px;
+    border-radius: 30px;
+    line-height: 40px;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    left: 390px;
+    top: 250px;
+    position: relative;
+}
+
+/* Footer */
+.footer {
+    background-color: #333033;
+    height: 135px;
+    position: relative;
+    z-index: 2;
+}
+
+.footer-content {
+    height: 71px;
+    width: 539px;
+    font-size: 95%;
+    color: white;
+    margin: auto;
+    text-align: center;
+    top: 25px;
+    position: relative;
+}
+
+
+/* Shapes */
+/* Leftside of Header Orange Box */
+.orange-shape {
+    width: 1443px;
+    height: 287px;
+    background-color: #FFB03D;
+    position: absolute;
+    transform: translate(-400px, -50px);
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+    z-index: 4;
+}
+/* White Dots Top Right of Header */
+.header-white-dots {
+    position: absolute;
+    transform: translate(1070px, 80px);
+    z-index: 4;
+}
+/* Yellow Circle Top Right of Header */
+.header-yellow-circle {
+    width: 69px;
+    height: 69px;
+    background-color: #FDEB73;
+    position: absolute;
+    transform: translate(1130px, 100px);
+    border-radius: 100px;
+    z-index: 4;
+}
+/* Yellow Triangle Top Right of Header */
+.header-triangle {
+    position: absolute;
+    transform: translate(1200px, 0px);
+    z-index: 4;
+}
+/* Blue Square Rightside of Video and Header */
+.header-blue-square {
+    width: 1002px;
+    height: 1099px;
+    position: absolute;
+    transform: translate(780px, -450px);
+    z-index: 3;
+    background-color: #99D8FF;
+    overflow: hidden;
+}
+/* Blue Round Bottom Left of Video */
+.blue-shape-left {
+    width: 1002px;
+    height: 737px;
+    position: absolute;
+    transform: translate(-600px, 650px);
+    z-index: 2;
+    background-color: #99D8FF;
+    overflow: hidden;
+    border-radius: 500px;
+}
+/* Yellow Arches Left and Right Sides of Video */
+.yellow-shape {
+    width: 125px;
+    height: 353px;
+    position: absolute;
+    z-index: 1;
+    background-color: #FDEB73;
+    border-radius: 100px;
+}
+/* White Outline Arches Left and Right Sides of Video */
+.yellow-shape-foreground {
+    border: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 100px;
+    width: 100%;
+    height: 100%;
+}
+/* White Arch Left Side of Video */
+.ys-l .yellow-shape-foreground {
+    transform: translate(50px, 70px);
+}
+/* White Arch Right Side of Video */
+.ys-r .yellow-shape-foreground {
+    transform: translate(-50px, 70px);
+}
+/* Yellow Arch Left Side of Video */
+.ys-l {
+    transform: translate(0px, 400px);
+}
+/* Yellow Arch Right Side of Video */
+.ys-r {
+    transform: translate(1241px, 400px);
+    z-index: 2;
+}
+/* White Triangle Left Side of Game 1 Content */
+.game-1-white-triangle {
+    position: absolute;
+    transform: translate(-275px, 1600px);
+}
+/* Purple Circle Top Right of Game 2 Content */
+.game-2-purple-circle {
+    width: 40px;
+    height: 40px;
+    background-color: #E50A75;
+    position: absolute;
+    transform: translate(1230px, 2450px);
+    border-radius: 100px;
+}
+/* White Outline Triangle Right Side of Game 2 Content */
+.game-2-triangle-border {
+    position: absolute;
+    transform: translate(1275px, 2665px);
+}
+/* White Dots Bottom of Game 2 Content */
+.game-2-white-dots {
+    position: absolute;
+    transform: translate(400px, 3220px);
+}
+/* White Outline Circle Top Right of Game 2 Content */
+.game-2-white-circle {
+    position: absolute;
+    transform: translate(1080px, 2385px);
+}
+/* White Dots Underneath Video Player of Game 1 Content */
+.game-1-white-dots {
+    position: absolute;
+    transform: translate(10px, 2140px);
+}
+/* White Triangle Left Side of Game 3 Content */
+.game-3-white-triangle {
+    position: absolute;
+    transform: translate(-270px, 3530px);
+}
+/* White Dots Bottom Left of Game 3 Content */
+.game-3-white-dots {
+    position: absolute;
+    transform: translate(-320px, 4000px);
+}
+/* Purple Circle Top Left of Game 3 Content */
+.game-3-purple-circle {
+    width: 40px;
+    height: 40px;
+    background-color: #E50A75;
+    position: absolute;
+    transform: translate(40px, 3380px);
+    border-radius: 100px;
+}
+/* White Outline Circle Top Left of Game 3 Content */
+.game-3-white-circle {
+    position: absolute;
+    transform: translate(20px, 3240px);
+}
+/* Buttons */
+.click-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}

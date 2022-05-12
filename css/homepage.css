@@ -621,10 +621,32 @@ body {
 a {
     text-decoration: none;
 }
-.play-button {
-    position: absolute;
-    top: -240px;
-    left: -45px;
-    transform: scale(0.5);
-    cursor: pointer;
+/* Video.JS media players */
+.vjs-theme-fantasy {
+    --vjs-theme-fantasy--primary: #99d8ff;
+    --vjs-theme-fantasy--secondary: #fff;
+    background-color: transparent;
+}
+.vjs-control-bar {
+    transform: translate(-20px, -20px);
+}
+#vjs_video_964 .vjs-control-bar {
+    transform: translate(20px, -20px);
+}
+ .vjs-theme-fantasy .vjs-big-play-button {
+      left: 250px;
+      top: 134px;
+}
+#vjs_video_3 .vjs-big-play-button {
+    left: 430px;
+    top: 232px;
+    transform: scale(2.5);
+}
+#vjs_video_964 .vjs-big-play-button {
+    left: 290px;
+}
+.video-js .vjs-big-play-button .vjs-icon-placeholder::before {
+    content: "";
+    background-image: url("../images/play-button.png");
+    background-size: cover;
 }
