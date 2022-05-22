@@ -109,6 +109,21 @@ body {
     top: 507px;
     right: -1px;
 }
+/* Gallery */
+.gallery {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 982px;
+    z-index: 5;
+    display: flex;
+    justify-content: space-evenly;
+    width: 1366px;
+}
+.gallery img {
+    width: 370px;
+    height: 230px;
+}
 /* Gameplay Content */
 .gameplay {
     background-color: white;
@@ -460,13 +475,6 @@ body {
     position: absolute;
     top: 3962px;
     left: -112px;
-}
-.collage {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 982px;
-    z-index: 5;
 }
 /* Buttons */
 .click-button {
