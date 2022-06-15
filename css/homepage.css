@@ -703,9 +703,9 @@ a {
         text-align: center;
     }
     .game-1 .top-left-box .video-background {
-        position: absolute;
+        position: relative;
         left: 50%;
-        top: 200%;
+        top: 140%;
         transform: translateX(-50%) scale(2);
     }
     .game-1 .right-side-box {
