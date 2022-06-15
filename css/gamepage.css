@@ -52,6 +52,9 @@ body {
 .navbar a:hover {
     opacity: 50%;
 }
+.navbar .current {
+    opacity: 50%;
+}
 /* Info Content */
 .info {
     height: 1035px;
@@ -237,6 +240,7 @@ body {
     background-color: #FDEB73;
     height: 860px;
     text-align: center;
+    z-index: 1;
 }
 .newsletter .container {
     height: 100%;
@@ -257,6 +261,36 @@ body {
     position: relative;
     top: 151px;
     left: 214px;
+}
+/* Signup Forms */
+._form_7,
+._form_9,
+._form_5 {
+    position: relative;
+    top: 75px;
+}
+._submit {
+margin-left: 50%;
+transform: translateX(-50%);
+width: 290px;
+font-size: 25px;
+}
+._x59835708 label,
+._x33656241 label,
+._x02504263 label,
+._x49451464 label,
+._x24755651 label,
+._x76294034 label  {
+	font-size: 18px;
+}
+._x33656241 input,
+._x59835708 input,
+._x02504263 input,
+._x49451464 input,
+._x24755651 input,
+._x76294034  input {
+height: 65px;
+width: 650px;
 }
 /* Library Content */
 .library {
@@ -393,7 +427,7 @@ body {
     height: 353px;
     border-radius: 68px;
     position: absolute;
-    top: 1843px;
+    top: 2703px;
     left: 60px;
 }
 .pink-shape-foreground {
@@ -412,7 +446,7 @@ body {
     height: 56px;
     border-radius: 99px;
     position: absolute;
-    top: 2806px;
+    top: 3665px;
     left: 1195px;
 }
 .purple-shape-foreground-2 {
@@ -427,25 +461,28 @@ body {
 /* White dots rightside testimonials */
 .test-white-dots {
     position: absolute;
-    top: 2207px;
+    top: 3067px;
     left: 1260px;
 }
 /* White dots testimonial/newsletter border */
 .newsletter-white-dots {
     position: absolute;
-    top: 2898px;
+    top: 2038px;
     left: 91px;
+    z-index: 4;
 }
 /* White triangles lower left newsletter */
 .newsletter-triangle-1 {
     position: absolute;
     left: -124px;
-    top: 3521px;
+    top: 2654px;
+    z-index: 4;
 }
 .newsletter-triangle-2 {
     position: absolute;
     left: -124px;
-    top: 3604px;
+    top: 2737px;
+    z-index: 4;
 }
 /* White shape right side newsletter */
 .white-shape-newsletter {
@@ -454,8 +491,9 @@ body {
     border: 4px solid white;
     border-radius: 68px;
     position: absolute;
-    top: 3562px;
+    top: 2703px;
     left: 1190px;
+    z-index: 4;
 }
 /* Pink shape lower right library */
 .pink-shape-library {
@@ -512,6 +550,6 @@ a {
 }
 .video-js .vjs-big-play-button .vjs-icon-placeholder::before {
     content: "";
-    background-image: url("../../images/play-button.png");
+    background-image: url("/images/play-button.png");
     background-size: cover;
 }

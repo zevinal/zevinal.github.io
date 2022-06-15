@@ -3,117 +3,182 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title>EpicWin.Team - Arcade - Short fun team games you play in your browser during Zoom meetings. Perfect for hybrid and remote teams. Also works over Slack, Microsoft Teams, Discord, Plain Old Telephone and Smoke Signals</title>
+    <title>EpicWin.Team|Arcade - Short fun team games you play in your browser during Zoom meetings. Perfect for virtual teams. Also works over Slack, Microsoft Teams, Discord, Telephone Conference</title>
     <meta content="EpicWin Arcade" property="og:title">
-    <meta content="Short fun team games you play in your browser during Zoom meetings. Perfect for hybrid and remote teams." property="og:description">
+    <meta content="Short fun team games you play in your browser during Zoom meetings. Perfect for virtual teams." property="og:description">
     <meta content="EpicWin.Team" property="og:site_name">
     <meta content="http://epicwin.team/images/LogoCard.png" property="og:image">
     <meta content="summary_large_image" name="twitter:card">
+    
     <link href="https://vjs.zencdn.net/7.18.1/video-js.css" rel="stylesheet" />
     <link href="https://unpkg.com/@videojs/themes@1/dist/fantasy/index.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/gamepage.css" />
-    <link rel="stylesheet" href="css/lightbox.css">
-    <script src="js/jquery.js"></script>
-    <script src="js/lightbox.min.js"></script>
-    <script src="js/cycle2.js"></script>
+    <link rel="stylesheet" href="css/homepage.css" />
 </head>
 <body>
     <div class="margin">
         <div class="header">
-            <div class="logo-top">
-                <div class="logo-container">
-                    <img src="images/epicwinarcade.png" alt="Epic Win Arcade">
+          <div class="logo-top">
+	    <div class="logo-container" style="display: block ruby;">
+  <img src="images/epicwinarcade.png" alt="Epic Win Arcade"><span style="background: red;padding: 5px;color: white;font-size: small;">BETA</span>
+  
                 </div>
             </div>
-                <div class="navbar">
-                    <a href="#">Empire Builing</a>
-                    <a href="#">Illustrious</a>
-                    <a href="#">Busy Bee</a>
-                    <a href="#">Company</a>
-                </div>
+            <div class="testimonial-box-container">
+                <div class="testimonial-50">
+                    <div class="test-container">
+                        <div class="test-info">
+                            <p>"My team enjoyed trying out EpicWin.Team games and we're looking forward to exploring others in future!"</p>
+                        </div>
+                        <div class="test-client">
+                            <p>- Kartik Kumar, satsearch.com</p>
+                        </div>
+                    </div>
+                </div> <!-- /testimonial 1 -->
+                <div class="testimonial-50">
+                    <div class="test-container">
+                        <div class="test-info">
+                            <p>"Easy and fun! Laughed through our meeting - the team loved it! Ready for more :)"</p>
+                        </div>
+                        <div class="test-client">
+                            <p>- Neil Lewis, 9Others Valencia</p>
+                        </div>
+                    </div>
+                </div> <!-- /testimonial 2 -->
+            </div> <!-- /testimonial-box-container -->
         </div> <!-- /header -->
-        <div class="info">
-            <!-- <h1>Test your team's reflexes with Empire Building:</h1> -->
-            <div class="info-background">
-                <img src="images/empireBuildingLogo.png" alt="">
-                <div class="text-box">
-                    <p>Have fun with your team as you stack blocks together in Empire Building Classic. Experience the tension together in ensuring the tower doesn't topple.<br>Tower Royale mode is coming soon.<br>Compete against other teams to be the tallest tower.</p>
+        <div class="video">
+            <div class="video-background">
+                <div class="video-player">
+                    <video class="video-js vjs-theme-fantasy" controls height="506px" width="900px" id="video-main" videojs_flag="1" >
+                    <source src="https://player.vimeo.com/progressive_redirect/playback/705182804/rendition/1080p/file.mp4?loc=external&signature=e71e94feacc999efc0c654aeced6581497048603c6db0f53ef7eae5056335458#t=0.001" type="video/mp4">
+                    </video>
                 </div>
-                <div class="top-right-box">
-                    <img src="images/empireBuilding.png" alt="">
-                    <div class="click-button">
-                        <p>START BOOKING PROCESS</p>
-                    </div>
-                </div>
-                
             </div>
-        </div> <!-- /info -->
-        <div class="gameplay" id="gameplay">
-            <div class="right-side">
-                <div class="heading">
-                    <p>Why you'll enjoy Empire Building with your<br>co-workers.</p>
-                </div>
-                <div class="text-box">
-                    <p>More information about Empire Building. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit rem nihil autem quibusdam voluptates et? Delectus, excepturi quia aperiam esse quam, voluptatibus, eligendi dolorum voluptatem quasi beatae facilis ipsum assumenda.</p>
-                </div>
+        </div> <!-- /video -->
+        <div class="library">
+            <div class="top-left-text">
+                <p>
+                    Five-minute team games playable in everyone's browser
+                </p>
+            </div>
+            <div class="middle-images">
+                <img src="images/empireBuilding.png" alt="Empire Building" />
+                <img src="images/illustrious.png" alt="Illustrious" />
+                <img src="images/busybee.png" alt="Busy Bee" />
+            </div>
+            <a href="#game-1">
                 <div class="click-button">
-                    <p>FIND OUT MORE</p>
+                    <p>Browse our games</p>
+                </div>
+            </a>
+            <p class="lower-text">Welcome to EpicWin Arcade, our short, browser-based games will bond your team better than ever.<br><br>
+
+                Click or scroll for more information.</p>
+        </div> <!-- /library -->
+        <div class="game-1" id="game-1">
+            <div class="top-left-box">
+                <div class="text">
+                    <p>
+                        Test your team's reflexes with Empire Building:
+                    </p>
+                </div>
+                <div class="video-background">
+                    <video class="video-js vjs-theme-fantasy" controls id="video-empire-building" videojs_flag="1" >
+                        <source src="https://player.vimeo.com/progressive_redirect/playback/705182804/rendition/1080p/file.mp4?loc=external&signature=e71e94feacc999efc0c654aeced6581497048603c6db0f53ef7eae5056335458#t=0.001" type="video/mp4">
+                    </video>
                 </div>
             </div>
-            <div class="left-side">
-                <div class="video">
-                    <div class="video-background">
-                        <div class="video-player">
-                            <video class="video-js vjs-theme-fantasy" controls height="411px" width="730px" data-setup="{}">
-                            <source src="https://player.vimeo.com/progressive_redirect/playback/705182804/rendition/1080p/file.mp4?loc=external&signature=e71e94feacc999efc0c654aeced6581497048603c6db0f53ef7eae5056335458" type="video/mp4">
-                            </video>
-                        </div>
+            <div class="right-side-box">
+                <img src="images/empireBuilding.png" alt="Empire Building" />
+                <a href="arcade/empire-building.html">
+                    <div class="click-button">
+                        <p>Find out more</p>
                     </div>
-                </div> <!-- /video -->
+                </a>
             </div>
-        </div> <!-- /gameplay -->
-        <div class="testimonials">
-            <div class="heading">
-                <p>What our customers think</p>
-            </div>
-            <div class="container">
-                    <div class="col">
-                        <div class="text-box">
-                            <p class="main-text">"My team enjoyed trying out EpicWin.Team games and we're looking forward to exploring others in future!"</p>
-                            <p class="sub-text" id="test-1">- Kartik Kumar, satsearch.com</p>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="text-box">
-                            <p class="main-text">"Easy and fun! Laughed through our meeting - the team loved it! Ready for more :)"</p>
-                            <p class="sub-text" id="test-2">- Neil Lewis, 9Others Valencia</p>
-                        </div>
-                    </div>
-            </div>
-        </div> <!-- /testimonials -->
-        <div class="newsletter">
-            <div class="container">
-                <p class="heading">Subscribe to our mailing list!</p>
-                <p class="sub-text">Be the first to know when Empire Building goes live!</p>
-                <h1 style="position: relative; top:250px;">FORM GOES HERE</h1>
-                <h1 style="position: relative; top:250px;">FORM GOES HERE</h1>
-                <h1 style="position: relative; top:250px;">FORM GOES HERE</h1>
-                <h1 style="position: relative; top:250px;">FORM GOES HERE</h1>
-            </div>
-        </div> <!-- /newsletter -->
-        <div class="library" id="library">
-            <div class="heading">
-                <p>You might also like</p>
-            </div>
-            <div class="container">
-                <div class="col">
-                    <a href="#library"><img src="images/illustriousFull.png" alt=""></a>
-                </div>
-                <div class="col">
-                    <a href="#library"><img src="images/busyBeeFull.png" alt=""></a>
+            <div class="bottom-left-box-background">
+                <div class="text-box">
+                    <p>
+                        Have fun with your team as you stack blocks together in Empire Building Classic. Experience the tension together in ensuring the tower doesn't topple.
+                        <br> <br>
+                        Tower Royale mode is coming soon. Compete against other teams to be the last tower standing!
+                    </p>
                 </div>
             </div>
-        </div>
+        </div> <!-- /game-1 -->
+        <div class="game-2">
+            <div class="left-side-box">
+                <img src="images/illustrious.png" alt="Illustrious" />
+                <a href="arcade/illustrious.html">
+                    <div class="click-button">
+                        <p>Find out more</p>
+                    </div>
+                </a>
+            </div>
+            <div class="right-side-box">
+                <div class="text">
+                    <p>
+                        Challenge the team on art and words with Illustrious!
+                    </p>
+                </div>
+                <div class="video-background">
+                    <video class="video-js vjs-theme-fantasy" controls height="315px" width="560px" id="video-illustrious" videojs_flag="1">
+                        <source src="https://player.vimeo.com/progressive_redirect/playback/705182804/rendition/1080p/file.mp4?loc=external&signature=e71e94feacc999efc0c654aeced6581497048603c6db0f53ef7eae5056335458#t=0.001" type="video/mp4">
+                    </video>
+                </div>
+                <div class=" bottom-left-box-background">
+                    <div class="text-box">
+                        <p>
+                            Illustrious is a team drawing game crossed with a hint of a tile word game. Who is a Pablo Picasso and who is a Tracy Emin? Illustrious will put both your art and word skills to the test!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- /game-2 -->
+        <div class="game-3">
+            <div class="top-left-box">
+                <div class="text">
+                    <p>
+                        Busy Bee:
+                    </p>
+                </div>
+                <div class="video-background">
+                    <video class="video-js vjs-theme-fantasy" controls height="315px" width="560px" id="video-busy-bee" videojs_flag="1" >
+                        <source src="https://player.vimeo.com/progressive_redirect/playback/705182804/rendition/1080p/file.mp4?loc=external&signature=e71e94feacc999efc0c654aeced6581497048603c6db0f53ef7eae5056335458#t=0.001" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="right-side-box">
+                <img src="images/busybee.png" alt="Busy Bee" />
+                <a href="arcade/busy-bee.html">
+                    <div class="click-button">
+                        <p>Find out more</p>
+                    </div>
+                </a>
+            </div>
+            <div class="bottom-left-box-background">
+                <div class="text-box">
+                    <p>
+		                Retro gamers will love this. The Queen Bee has decreed the hive needs a cleanup, and Her Majesty is always right! Work as a team to break all the blocks and clean the hive before time runs out.
+                    </p>
+                </div>
+            </div>
+        </div> <!-- /game-3 -->
+        <div class="epic-club">
+            <div class="epic-win-club-logo">
+                <div class="epic-win-club-cont">
+                    <img src="images/epic-win-club-logo.png" alt="Epic Win Club Logo" />
+                </div>
+            </div>
+            <div class="coming-soon-outline">
+                <img src="images/coming-soon.png" alt="Coming soon" />
+                <a href="club/about.html">
+                    <div class="click-button">
+                        <p>Click Here to Learn More</p>
+                    </div>
+                </a>
+            </div>
+        </div> <!-- /epic-club -->
         <div class="footer">
             <div class="footer-content">
                 <p>
@@ -124,61 +189,161 @@ Copyright 2021,2022 EpicWin.Team, from MaasaiMosh Games a trading name of Natura
         <div class="orange-shape">
             <!-- /Orange header box -->
         </div>
-        <div class="header-white-circle">
-            <img src="images/circle-border.png" alt="">
-        </div> <!-- /White header circle -->
-        <div class="info-white-dots">
-            <img src="images/four-high-dotted.png" alt="">
-        </div> <!-- /White info dots -->
-        <div class="purple-shape-info">
-            <div class="purple-shape-foreground">
-                <!-- /Purple shape left of info -->
+        <div class="header-white-dots">
+            <img src="images/four-high-dotted.png" alt="dots" />
+        </div> <!-- /White header dots -->
+        <div class="header-yellow-circle">
+            <!-- /Yellow header circle -->
+        </div>
+        <div class="header-triangle">
+            <img src="images/yellow-triangle.png" alt="Triangle" />
+        </div> <!-- /Yellow header triangle -->
+        <div class="header-blue-square">
+            <!-- /Blue header box -->
+        </div>
+        <div class="blue-shape-left">
+            <!-- /Blue box left side -->
+        </div>
+        <div class="yellow-shape ys-l">
+            <div class="yellow-shape-foreground">
+                <!-- /Yellow arch left of video player -->
             </div>
         </div>
-        <div class="purple-shape-gameplay">
-            <!-- /Purple shape in gameplay -->
-        </div>
-        <div class="blue-shape-gameplay">
-            <!-- /Blue shape in gameplay -->
-        </div>
-        <div class="pink-shape-testimonials">
-            <div class="pink-shape-foreground">
-                <!-- /Pink shape left of testimonials-->
+        <div class="yellow-shape ys-r">
+            <div class="yellow-shape-foreground">
+                <!-- /Yellow arch right of video player -->
             </div>
         </div>
-        <div class="purple-shape-testimonials">
-            <div class="purple-shape-foreground-2">
-                <!-- /Purple shape right of testimonials -->
-            </div>
+        <div class="game-1-white-triangle">
+            <img src="images/white-triangle.png" alt="Triangle"/>
+            <!-- /White Triangle left of game 1 -->
         </div>
-        <div class="test-white-dots">
-            <img src="images/four-across-dots.png" alt="">
-        </div> <!-- /White testimonials dots -->
-        <div class="newsletter-white-dots">
-            <img src="images/four-high-dotted.png" alt="">
-        </div> <!-- /White newsletter dots -->
-        <div class="newsletter-triangle-1">
-            <img src="images/triangle-border.png" alt="">
-        </div> <!-- /White triangle newsletter-->
-        <div class="newsletter-triangle-2">
-            <img src="images/triangle-border.png" alt="">
-        </div> <!-- /White triangle newsletter-->
-        <div class="white-shape-newsletter">
-            <!-- /White shape right newsletter -->
+        <div class="game-2-purple-circle">
+            <!--Purple Circle-->
         </div>
-        <div class="pink-shape-library">
-            <!-- /Pink shape right library -->
+        <div class="game-2-triangle-border">
+            <img src="images/Triangle-border.png" alt="Triangle">
+            <!--White Triangle Border Only-->
         </div>
-        <div class="blue-shape-library">
-            <!-- /Blue shape left library -->
+        <div class="game-2-white-dots">
+            <img src="images/four-high-dotted.png">
+            <!--Four High White Dots-->
         </div>
-        <div class="gallery">
-            <a href="images/empireBuilding1.png" data-lightbox="gallery" alt=""><img src="images/empireBuilding1.png" alt="Empire Building Game"></a>
-            <a href="images/empireBuilding2.png" data-lightbox="gallery"><img src="images/empireBuilding2.png" alt="Empire Building Game"></a>
-            <a href="images/empireBuilding3.png" data-lightbox="gallery"><img src="images/empireBuilding3.png" alt="Empire Building Game"></a>
-            
+        <div class="game-2-white-circle">
+            <img src="images/circle-border.png">
+            <!--White Border Circle-->
+        </div>
+        <div class="game-1-white-dots">
+            <img src="images/four-high-dotted.png">
+            <!--Four High White Dots-->
+        </div>
+        <div class="game-3-white-triangle">
+            <img src="images/white-triangle.png">
+            <!--White Triangle-->
+        </div>
+        <div class="game-3-white-dots">
+            <img src="images/four-high-dotted.png">
+            <!--Four High White Dots-->
+        </div>
+        <div class="game-3-purple-circle">
+            <!--Purple Circle-->
+        </div>
+        <div class="game-3-white-circle">
+            <img src="images/circle-border.png">
+            <!--White Circle Border-->
         </div>
     </div> <!-- /margin -->
-    <script src="https://vjs.zencdn.net/7.18.1/video.min.js"></script>
+    <script src="js/video.js"></script>
+    <script src="js/videojs-analytics.js"></script>
+    <script>
+
+      document.addEventListener("DOMContentLoaded", function(event)
+				{ 
+				    console.log( "Loading the video.js for the <video> tags" );
+
+				    var all_video = document.getElementsByTagName("video");
+
+				    for( video_idx in all_video )
+				    {
+					var video_elem = all_video[ video_idx ];
+
+					// Skip functions etc.
+					//
+					if( video_elem.nodeType == undefined )
+					    continue ;
+
+					// Check DOM element
+					//
+					console.log( "Considering <video> tag: ", video_elem );
+
+					if( video_elem.getAttribute("videojs_flag") !== undefined )
+					{
+					    console.log( "Marked <video> tag: ", video_elem );
+
+					    var player = videojs( video_elem );
+					    
+					    console.log( "Configuring analytics for video player: ", player );
+	      
+					    player.analytics({
+						events: [
+						    {
+							name: 'play',
+							label: 'video play',
+							action: 'play',
+						    },
+						    {
+							name: 'pause',
+							label: 'video pause',
+							action: 'pause',
+						    },
+						    {
+							name: 'ended',
+							label: 'video ended',
+							action: 'ended',
+						    },
+						    {
+							name: 'fullscreenchange',
+							label: {
+							    open: 'video fullscreen open',
+							    exit: 'video fullscreen exit'
+							},
+							action: 'fullscreen change',
+						    },
+						    {
+							name: 'volumechange',
+							label: 'volume changed',
+							action: 'volume changed',
+						    },
+						    {
+							name: 'resize',
+							label: 'resize',
+							action: 'resize',
+						    },
+						    {
+							name: 'error',
+							label: 'error',
+							action: 'error',
+						    },
+						    {
+							name: 'resolutionchange',
+							action: 'resolution change',
+						    },
+						    {
+							name: 'timeupdate',
+							action: 'time updated',
+						    }
+						]
+					    });
+					    
+					    
+					}
+					else
+					{
+					    console.log( "Ignoring unmarked <video> tag: ", video_elem );
+					}
+				    }
+				});
+      
+      </script>
 </body>
 </html>

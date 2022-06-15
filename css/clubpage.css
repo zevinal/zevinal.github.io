@@ -1,0 +1,213 @@
+body {
+    background-color: lightblue;
+    max-width: 100%;
+    font-family: omnes-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow-x: hidden;
+    margin: 0;
+}
+/* Main Content Area */
+.margin {
+    width: 1366px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #F9E0EB;
+    overflow: hidden;
+}
+/* Header Logo */
+.logo-top {
+    margin: auto;
+    width: 639px;
+    height: 116px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: white;
+    margin-top: 20px;
+    position: relative;
+    z-index: 50;
+}
+
+.logo-container {
+    width: 364px;
+    height: 68px;
+    margin: auto;
+    padding-top: 26px;
+}
+
+.logo-container img {
+    width: 100%;
+}
+
+.testimonial-box-container {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 50;
+}
+
+.testimonial-50 {
+    width: 50%;
+    font-size: 150%;
+}
+
+.test-container {
+    width: 439px;
+    height: 144px;
+    margin: auto;
+}
+
+.test-client {
+    color: #FFB03D;
+}
+/* COMING SOON */
+.coming-soon {
+    height: 500px;
+    text-align: center;
+}
+.coming-soon .main-text {
+    position: relative;
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+}
+/* Newsletter Content */
+.main {
+    height: 630px;
+    background-image: url(../club/images/box2-background.png);
+}
+
+.main .newsletter {
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: -32px;
+}
+
+.newsletter .top-text {
+    height: 110px;
+    color: #FFB03D;
+    font-size: 200%;
+    position: relative;
+    text-align: center;
+}
+.newsletter .main-text {
+    text-align: center;
+    font-size: 150%;
+    margin: 50px auto;
+}
+._form_15 {
+    position: relative;
+    top: -50px;
+}
+._x58423558 {
+	text-align: center;
+}
+._x23842449 ._form-title {
+	text-align: center;
+}
+._submit {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 290px;
+    font-size: 25px;
+}
+
+._x98828444 label,
+._x06696093 label,
+._field1 label {
+    font-size: 18px;
+}
+
+._x98828444 input,
+._x06696093 input,
+._field1 input {
+    height: 65px;
+    width: 650px;
+}
+.newsletter .click-button {
+    width: 370px;
+    height: 57px;
+    background-color: #FFB03D;
+    border: 4px solid white;
+    text-align: center;
+    font-size: 150%;
+    line-height: 4px;
+    color: white;
+    border-radius: 40px;
+    position: relative;
+    top: -144px;
+    left: 61px;
+}
+/* Footer */
+.footer {
+    background-color: #333033;
+    height: 135px;
+    position: relative;
+    z-index: 2;
+}
+
+.footer-content {
+    height: 71px;
+    width: 539px;
+    font-size: 95%;
+    color: white;
+    margin: auto;
+    text-align: center;
+    top: 25px;
+    position: relative;
+}
+
+/* Shapes */
+/* Leftside of Header Orange Box */
+.orange-shape {
+    width: 1443px;
+    height: 287px;
+    background-color: #FFB03D;
+    position: absolute;
+    transform: translate(-400px, -50px);
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+    z-index: 4;
+}
+/* White Dots Top Right of Header */
+.header-white-dots {
+    position: absolute;
+    transform: translate(1070px, 80px);
+    z-index: 4;
+}
+/* Yellow Circle Top Right of Header */
+.header-yellow-circle {
+    width: 69px;
+    height: 69px;
+    background-color: #FDEB73;
+    position: absolute;
+    transform: translate(1130px, 100px);
+    border-radius: 100px;
+    z-index: 4;
+}
+/* Yellow Triangle Top Right of Header */
+.header-triangle {
+    position: absolute;
+    transform: translate(1200px, 0px);
+    z-index: 4;
+}
+/* Buttons */
+.click-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
