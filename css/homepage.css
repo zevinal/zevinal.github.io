@@ -862,4 +862,12 @@ a {
         transform: rotate(-45deg);
         -webkit-transform: rotate(-45deg);
       }
+      .game-2-white-circle {
+        position: absolute;
+        transform: translate(1200px, 2325px);
+      }
+      .game-2-white-dots {
+        position: absolute;
+        transform: translate(20px, 3550px)
+      }
 }
