@@ -679,7 +679,16 @@ a {
         height: 200px;
     }
     .testimonial-50 {
-        font-size: 1.5rem;
+        font-size: 2rem;
+    }
+    .mobile-off {
+        display: none;
+    }
+    .mobile-on {
+        width: 100%;
+    }
+    .mobile-on .test-container {
+        width: 75%;
     }
     .library {
         height: 65vh;
