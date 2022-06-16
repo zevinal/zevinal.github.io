@@ -668,6 +668,12 @@ a {
 
 /* MOBILE VIEW */
 @media only screen and (max-device-width: 480px) {
+    .testimonial-box-container {
+        height: 200px;
+    }
+    .testimonial-50 {
+        font-size: 1.5rem;
+    }
     .library {
         height: 65vh;
     }
