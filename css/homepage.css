@@ -660,6 +660,13 @@ a {
     background-image: url("../images/play-button.png");
     background-size: cover;
 }
+.arrow {
+    visibility: hidden;
+  }
+  
+  .right {
+    visibility: hidden;
+  }
 
 /* TABLET VIEW */
 @media (max-width: 768px){
@@ -717,6 +724,19 @@ a {
     .game-1 .right-side-box {
         visibility: hidden;
     }
+    .game-1 .right-side-box .click-button {
+        visibility: visible;
+        width: 120px;
+        height: 120px;
+        text-align: center;
+        border-radius: 100px;
+        position: relative;
+        top: 500px;
+        left: 350px;
+    }
+    .game-1 .right-side-box .click-button p {
+        visibility: hidden;
+    }
     .game-1 .bottom-left-box-background {
         position: relative;
         left: 50%;
@@ -727,6 +747,19 @@ a {
         height: 65vh;
     }
     .game-2 .left-side-box {
+        visibility: hidden;
+    }
+    .game-2 .left-side-box .click-button {
+        visibility: visible;
+        width: 120px;
+        height: 120px;
+        text-align: center;
+        border-radius: 100px;
+        position: relative;
+        top: 565px;
+        left: 1133px;
+    }
+    .game-2 .left-side-box .click-button p {
         visibility: hidden;
     }
     .game-2 .right-side-box {
@@ -752,6 +785,19 @@ a {
         height: 65vh;
     }
     .game-3 .right-side-box {
+        visibility: hidden;
+    }
+    .game-3 .right-side-box .click-button {
+        visibility: visible;
+        width: 120px;
+        height: 120px;
+        text-align: center;
+        border-radius: 100px;
+        position: relative;
+        top: 500px;
+        left: 350px;
+    }
+    .game-3 .right-side-box .click-button p {
         visibility: hidden;
     }
     .game-3 .top-left-box {
@@ -791,4 +837,20 @@ a {
     .footer {
         transform: scale(2);
     }
+    .arrow {
+        visibility: visible;
+        border: solid black;
+        border-width: 0 5px 5px 0;
+        display: inline-block;
+        padding: 25px;
+        position: relative;
+        left: -45px;
+        top: 0;
+      }
+      
+      .right {
+        visibility: visible;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+      }
 }
