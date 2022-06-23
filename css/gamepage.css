@@ -572,40 +572,51 @@ a {
 @media only screen and (max-device-width: 480px) {
     .fa.fa-bars {
         display: inline;
+        font-size: 5rem;
     }
-    .header .icon {
-        z-index: 9999;
-        display: hidden;
-        visibility: visible;
-        color: black;
-        font-size: 2em;
-        position: fixed;
-        padding: 30px;
-        top: 0;
-        right: 0;
-    }
+     /* Style the navigation menu */
     .mobile-nav {
         display: block;
         overflow: hidden;
-        background-color: #fcb50f;
+        background-color: #ffb03d;
         position: fixed;
-        width: 300px;
+        width: 100%;
+        height: auto;
         top: 0;
         right: 0;
-        margin: 60px;
         z-index: 9999;
+        text-align: center;
     }
+    /* Hide the links inside the navigation menu (except for logo) */
     .mobile-nav #links {
-        display: hidden;
-        background-color: #fcb50f;
+        display: none;
     }
+    /* Style navigation menu links */
     .mobile-nav a {
-        color: white;
+        color: black;
         padding: 14px 16px;
         text-decoration: none;
         font-size: 2em;
         display: block;
     }
+    .mobile-nav a:nth-child(even) {
+        background-color: #ffa500;
+    }
+    /* Style the hamburger menu */
+    .mobile-nav a.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 9999;
+        color: black;
+        font-size: 2em;
+    }
+    /* Style the active link (or home/logo) */
+    .bar {
+        background-color: #f9e0eb;
+        color: white;
+    } 
     #busy-bee-logo {
         transform: scale(1.5);
     }

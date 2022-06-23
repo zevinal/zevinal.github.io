@@ -23,7 +23,7 @@ Webflow.push(function () {
 
 
 // Hamburger menu only appears on scroll
-const nav = document.querySelector('.icon')
+const nav = document.querySelector('.mobile-nav')
 const navLinks = document.getElementById("links")
 window.addEventListener('scroll', fixNav)
 function fixNav() {
@@ -49,8 +49,6 @@ function mobileNav() {
 
 // self executing function
 (function() {
-  var x = document.getElementById("links");
-  var y = document.getElementById("hamburger")
+  var x = document.querySelector(".mobile-nav");
   x.style.display = "none";
-  y.style.display = "none";
 })();
