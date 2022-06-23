@@ -2,6 +2,15 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-S1J231MCPX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    
+    gtag('config', 'G-S1J231MCPX');
+  </script>
     <meta charset="utf-8" />
     <title>EpicWin.Team - Arcade - Short fun team games you play in your browser during Zoom meetings. Perfect for virtual teams. Also works over Slack, Microsoft Teams, Discord, Plain Old Telephone and Smoke Signals</title>
     <meta content="EpicWin Arcade" property="og:title">
@@ -11,6 +20,7 @@
     <meta content="summary_large_image" name="twitter:card">
     <link href="https://vjs.zencdn.net/7.18.1/video-js.css" rel="stylesheet" />
     <link href="https://unpkg.com/@videojs/themes@1/dist/fantasy/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../css/gamepage.css" />
     <link rel="stylesheet" href="../css/lightbox.css">
     <script src="../js/jquery.js"></script>
@@ -31,6 +41,18 @@
                     <a href="busy-bee.html">Busy Bee</a>
                     <a href="../index.html">Company</a>
                 </div>
+                <div class="mobile-nav">
+                    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                    <a href="javascript:void(0);" class="icon" id="hamburger" onclick="mobileNav()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                    <ul id="links">
+                        <li><a class="current" href="empire-building.html">Empire Building</a></li>
+                        <li><a href="illustrious.html">Illustrious</a></li>
+                        <li><a href="busy-bee.html">Busy Bee</a></li>
+                        <li><a href="../index.html">Company</a></li>
+                    </ul>
+                </div> <!-- /mobile-nav -->
         </div> <!-- /header -->
         <div class="info">
             <div class="info-background">
@@ -79,10 +101,10 @@
             <div class="container">
                 <p class="heading">Subscribe to our mailing list!</p>
                 <p class="sub-text">Be the first to know when Empire Building goes live!</p>
-                <h1 style="position: relative; top:250px;">FORM GOES HERE</h1>
-                <h1 style="position: relative; top:250px;">FORM GOES HERE</h1>
-                <h1 style="position: relative; top:250px;">FORM GOES HERE</h1>
-                <h1 style="position: relative; top:250px;">FORM GOES HERE</h1>
+                <h1>FORM GOES HERE</h1>
+                <h1>FORM GOES HERE</h1>
+                <h1>FORM GOES HERE</h1>
+                <h1>FORM GOES HERE</h1>
             </div>
         </div> <!-- /newsletter -->
         <div class="testimonials">
@@ -183,5 +205,6 @@ Copyright 2021,2022 EpicWin.Team, from MaasaiMosh Games a trading name of Natura
         </div>
     </div> <!-- /margin -->
     <script src="https://vjs.zencdn.net/7.18.1/video.min.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 </html>

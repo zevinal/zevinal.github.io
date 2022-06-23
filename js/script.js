@@ -20,3 +20,37 @@ Webflow.push(function () {
        playButton.style.visibility = 'hidden;'
    })
 });
+
+
+// Hamburger menu only appears on scroll
+const nav = document.querySelector('.icon')
+const navLinks = document.getElementById("links")
+window.addEventListener('scroll', fixNav)
+function fixNav() {
+    if(window.scrollY > nav.offsetHeight + 150) {
+        nav.style.visibility = "visible"
+        nav.style.display = "block"
+    } else {
+        nav.style.visibility = "hidden"
+        nav.style.display = "hidden"
+        navLinks.style.display = "none"
+    }
+}
+
+// Hamburger Menu onClick
+function mobileNav() {
+  var x = document.getElementById("links");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+} 
+
+// self executing function
+(function() {
+  var x = document.getElementById("links");
+  var y = document.getElementById("hamburger")
+  x.style.display = "none";
+  y.style.display = "none";
+})();

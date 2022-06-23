@@ -211,3 +211,64 @@ body {
 a {
     text-decoration: none;
 }
+
+/* TABLET VIEW */
+@media (max-width: 768px){
+
+}
+
+/* MOBILE VIEW */
+@media only screen and (max-device-width: 480px) {
+    .margin {
+        overflow-y: hidden;
+    }
+    .testimonial-box-container {
+        height: 200px;
+    }
+    .testimonial-50 {
+        font-size: 2rem;
+    }
+    .mobile-off {
+        display: none;
+    }
+    .mobile-on {
+        width: 100%;
+    }
+    .mobile-on .test-container {
+        width: 75%;
+    }
+    .coming-soon {
+        height: 50vh;
+        margin-top: 30px;
+    }
+    .coming-soon img {
+        transform: scale(2);
+        top: 20%;
+        position: relative;
+    }
+    .coming-soon .main-text {
+        width: 75%;
+        font-size: 3rem;
+        top: 25%;
+    }
+    .main {
+        height: 65vh;
+        background: none;
+        background-color: white;
+        margin-bottom: 30px;
+    }
+    .main .newsletter {
+        transform: scale(1.5);
+        position: relative;
+        top: 180px;
+    }
+    .newsletter .click-button {
+        transform: translate(0, 100px) scale(1.5);
+    }
+    ._form_15 {
+        transform: scale(1.2);
+    }
+    .footer {
+        transform: scale(2);
+    }
+}

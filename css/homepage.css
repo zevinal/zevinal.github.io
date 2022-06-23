@@ -867,7 +867,8 @@ a {
         transform: translate(1200px, 2325px);
       }
       .game-2-white-dots {
-        position: absolute;
-        transform: translate(20px, 3550px)
+        /* position: absolute;
+        transform: translate(20px, 3550px) */
+        visibility: hidden;
       }
 }
